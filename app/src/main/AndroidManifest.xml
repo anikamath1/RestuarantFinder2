@@ -53,7 +53,9 @@
         <activity android:name=".Vrindavan" />
         <activity android:name=".AddEditAddressName" />
         <activity android:name=".StartUpActivity" />
-        <activity android:name=".AdminLogin"></activity>
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".AdminPassword">
+        </activity>
     </application>
 
 </manifest>

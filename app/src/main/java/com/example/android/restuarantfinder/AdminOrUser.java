@@ -22,6 +22,14 @@ public class AdminOrUser extends Activity {
                                     }
                                 }
         );
+        admin.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        finish();
+                                        startActivity(new Intent(getApplicationContext(),AdminLogin.class));
+                                    }
+                                }
+        );
 
     }
 
