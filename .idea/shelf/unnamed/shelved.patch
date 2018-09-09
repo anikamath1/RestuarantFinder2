@@ -1,0 +1,24 @@
+Index: app/src/main/java/com/example/android/restuarantfinder/AdminOrUser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.android.restuarantfinder;\n\nimport android.app.Activity;\nimport android.content.Intent;\nimport android.os.Bundle;\nimport android.view.View;\nimport android.widget.Button;\n\npublic class AdminOrUser extends Activity {\n    Button user,admin;\n    @Override\n    protected void onCreate(Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        setContentView(R.layout.activity_admin_or_user);\n        user=(Button)findViewById(R.id.user);\n        admin=(Button)findViewById(R.id.admin);\n        user.setOnClickListener(new View.OnClickListener() {\n                                    @Override\n                                    public void onClick(View v) {\n                                        finish();\n                                        startActivity(new Intent(getApplicationContext(),StartUpActivity.class));\n                                    }\n                                }\n        );\n\n    }\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/android/restuarantfinder/AdminOrUser.java	(date 1536486983000)
++++ app/src/main/java/com/example/android/restuarantfinder/AdminOrUser.java	(date 1536506718170)
+@@ -22,6 +22,14 @@
+                                     }
+                                 }
+         );
++        admin.setOnClickListener(new View.OnClickListener() {
++                                    @Override
++                                    public void onClick(View v) {
++                                        finish();
++                                        startActivity(new Intent(getApplicationContext(),AdminLogin.class));
++                                    }
++                                }
++        );
+ 
+     }
+ 
