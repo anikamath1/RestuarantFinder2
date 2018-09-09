@@ -50,7 +50,8 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".Mao" />
-        <activity android:name=".Vrindavan"></activity>
+        <activity android:name=".Vrindavan" />
+        <activity android:name=".AddEditAddressName"></activity>
     </application>
 
 </manifest>

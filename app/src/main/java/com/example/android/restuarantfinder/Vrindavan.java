@@ -45,7 +45,6 @@ public class Vrindavan extends AppCompatActivity {
         placeOrderButton.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
             }
         } );
     }
