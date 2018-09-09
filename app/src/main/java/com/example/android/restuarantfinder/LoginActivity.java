@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         {
             //start profile activity
             finish();
-            startActivity(new Intent(getApplicationContext(),ProfileActivity.class));
+            startActivity(new Intent(getApplicationContext(),AddEditAddressName.class));
         }
     }
 
@@ -75,8 +75,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 {
                     //statrt profile activity
                     finish();
-                    startActivity(new Intent(getApplicationContext(),ProfileActivity.class));
-
+                    startActivity(new Intent(getApplicationContext(),AddEditAddressName.class));
                 }
             }
         });

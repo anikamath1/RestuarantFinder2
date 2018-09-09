@@ -20,7 +20,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartUpActivity">
+        <activity android:name=".AdminOrUser">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,7 +51,9 @@
         <activity android:name=".ProfileActivity" />
         <activity android:name=".Mao" />
         <activity android:name=".Vrindavan" />
-        <activity android:name=".AddEditAddressName"></activity>
+        <activity android:name=".AddEditAddressName" />
+        <activity android:name=".StartUpActivity" />
+        <activity android:name=".AdminLogin"></activity>
     </application>
 
 </manifest>

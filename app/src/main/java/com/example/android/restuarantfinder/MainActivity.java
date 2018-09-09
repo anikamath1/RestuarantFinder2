@@ -25,16 +25,13 @@ public class MainActivity extends AppCompatActivity {
         DB.getWritableDatabase();
     }
 
-
     public void init(View v)
     {
 
         if(isServicesOk())
         {
-
                     Intent intent=new Intent(MainActivity.this,MapsActivity.class);
                     startActivity(intent);
-
         }
 
     }
